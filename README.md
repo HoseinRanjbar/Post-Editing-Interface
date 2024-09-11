@@ -31,5 +31,31 @@ A synthetic video sample:
 
 [Watch the video here](https://github.com/user-attachments/assets/e0cd5997-4a9c-4701-9e6e-9915516a3b74)
 
+## Running the Interface
+
+**Installing Packages and Libraries**
+
+Use the following command to install all the necessary packages and libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Cloning the MusePose Repository
+
+Clone the MusePose repository to your S3IT account using the following command. Since inference with the MusePose model requires a high-end GPU, we recommend running video synthesis on S3IT for optimal performance:
+
+```bash
+git clone https://github.com/TMElyralab/MusePose.git
+```
+
+Before running the interface, make sure to update the `config.yaml` file by changing the path to your desired directory.
+
+To run the interface, use the following command:
+
+```bash
+python main.py
+
+
 
 

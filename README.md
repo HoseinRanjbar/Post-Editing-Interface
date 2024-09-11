@@ -25,11 +25,12 @@ level. If a segment requires adjustment, users can either insert a new video or 
 The model then synthesizes a new video based on the pose sequence of the inserted or
 recorded video and the signer appearance of the original signer.
 
-[Watch the video here](https://github.com/user-attachments/assets/22e214ba-67f0-497c-bed8-0ef9643f8179)
+[Watch the video here](<img width="974" alt="segment-level" src="https://github.com/user-attachments/assets/1658966d-30ae-4c5b-bba1-06ebdd784331">
+)
 
 A synthetic video sample:
 
-[Watch the video here](https://github.com/user-attachments/assets/b2c117ed-ad92-4a1c-a7eb-ae200c22cf84)
+[Watch the video here](https://github.com/user-attachments/assets/e0cd5997-4a9c-4701-9e6e-9915516a3b74)
 
 
 

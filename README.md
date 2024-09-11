@@ -55,7 +55,5 @@ To run the interface, use the following command:
 
 ```bash
 python main.py
-
-
-
+```
 

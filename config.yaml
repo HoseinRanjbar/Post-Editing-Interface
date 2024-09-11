@@ -1,0 +1,14 @@
+canvas_width: 1300
+canvas_height: 750
+sidebar_width: 60
+
+images_root: '' # The path where all images used in the interface are there.
+recorded_video_path: '' # The path that recoreded video be saved
+synthetic_video_file_path: '' # The path where the files that relate to video synthesis are saved
+pose_video_path: '' # The path where the video generated from the pose be saved
+
+s3it:
+  username: '' # S3IT account username
+  password: '' # S3IT account password
+  working_directory: '' # Where MusePose is clone(/home/username/data/MusePose)
+  environment_activation:  # /home/username/data/environment_name/bin/activate 

@@ -28,5 +28,5 @@ recorded video and the signer appearance of the original signer.
 [Watch the video here](https://github.com/user-attachments/assets/22e214ba-67f0-497c-bed8-0ef9643f8179)
 
 
-[Watch the video here](https://github.com/user-attachments/assets/d82b3ec3-aef8-429e-893f-4db84991fd19)
+![museppose_gif](https://github.com/user-attachments/assets/7e4f9b37-6c3a-4298-a0d5-ac20356c3262)
 

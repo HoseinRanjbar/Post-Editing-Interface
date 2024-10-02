@@ -152,9 +152,12 @@ class PoseEditor(tk.Tk):
         self.out = None
         self.recording_thread = None
         self.recorded_video_path = self.config['recorded_video_path']
-        self.output_video_path = os.path.join(self.config['synthetic_video_file_path'],'output_video.mp4')
-        self.ref_img_path = os.path.join(self.config['synthetic_video_file_path'],'image.png')
-        self.synthetic_video_path = os.path.join(self.config['synthetic_video_file_path'],'synthetic_video.mp4')
+        # self.output_video_path = os.path.join(self.config['synthetic_video_file_path'],'output_video.mp4')
+        # self.ref_img_path = os.path.join(self.config['synthetic_video_file_path'],'image.png')
+        # self.synthetic_video_path = os.path.join(self.config['synthetic_video_file_path'],'synthetic_video.mp4')
+        self.output_video_path = self.config['synthetic_video_file_path']+'/output_video.mp4'
+        self.ref_img_path = self.config['synthetic_video_file_path']+'/image.png'
+        self.synthetic_video_path = self.config['synthetic_video_file_path']+'/synthetic_video.mp4'
         self.pose_visible = False
         self.pose_mode = False
         self.right_hand_ref_visible = False

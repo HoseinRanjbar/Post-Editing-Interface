@@ -1144,7 +1144,7 @@ class PoseEditor(tk.Tk):
         self.load_button_images()
         canvas_height = self.video_height + self.segment_mode_button_width+ self.fig_height_inch * self.dpi + 20 + 20 + 20 + 20
         self.segment_mode_canvas.config(width=self.canvas_width, height = canvas_height)# Place the time frame bar
-        self.slider.place(x = self.canvas_width * 0.545, y = 2 * 20 + self.video_height, anchor=tk.CENTER, width=800)
+        self.slider.place(x = self.canvas_width * 0.545, y = 2 * 20 + self.video_height, anchor=tk.CENTER, width=self.video_width)
         # Place the frame label
         self.frame_label.place(x=0.58 * self.canvas_width, y = 3 * 20 + self.video_height, anchor=tk.CENTER)
         # Place the time label

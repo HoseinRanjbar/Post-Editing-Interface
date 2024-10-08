@@ -10,7 +10,8 @@ The interface is divided into two main components: **Frame-Level Editing** and *
 
 ### Frame-Level Editing:
 In this section, users can manually edit pose data to correct any inaccuracies
-from the pose estimator. Future updates will add features that enable users to adjust the position,
+from the pose estimator. This functionality is particularly useful for gathering datasets, as it eliminates the need to start from scratch; users can first employ a pose estimator model and then make adjustments. It also aids in evaluating sign pose generation models.
+Future updates will add features that enable users to adjust the position,
 orientation, and posture of the signer’s body and hands within the frame.
 
 In the video below, you can see some features of the **Frame-Level Editing** component of the interface. The user corrects keypoints that were mistakenly placed by the automatic pose estimator.

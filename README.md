@@ -32,6 +32,10 @@ A synthetic video sample:
 
 [Watch the video here](https://github.com/user-attachments/assets/e0cd5997-4a9c-4701-9e6e-9915516a3b74)
 
+Skeleton data:
+
+[Watch the video here](https://github.com/user-attachments/assets/05ce9ef6-486a-4b2f-b929-ed8794b9d2e1)
+
 ## Running the Interface
 
 **Installing Packages and Libraries**

@@ -2,7 +2,7 @@
 
 
 
-[Watch the video here](https://github.com/user-attachments/assets/afbf515b-f014-4ea6-acbe-c14376f7c89d)
+![digital_signer4_pose](https://github.com/user-attachments/assets/5b6e876b-fdf9-4858-ac11-d7ae904df26e)
 
 [Watch the video here](https://github.com/user-attachments/assets/3f33672a-600f-4c79-88cd-5c50efa6f585)
 

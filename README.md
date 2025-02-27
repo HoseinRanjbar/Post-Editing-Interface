@@ -8,7 +8,7 @@ Skeleton pose is a fundamental form of sign language, widely used in sign langua
 
 Our system allows users to upload videos or pose data. For videos, users can choose a pose estimator (DWPose, OpenPose, or MediaPipe). Video frames are displayed for selection, and the corresponding pose is shown for manual editing to correct inaccuracies. Updated pose data can then be saved.
 
-[Frame level post editing](https://github.com/user-attachments/assets/f6f4aae4-8883-455b-8bb1-81f670b50dce)
+[Frame level post editing](https://github.com/user-attachments/assets/392e6b7c-1ae4-473e-a991-a65c9941c7c6)
 
 
 ### Video Editing:

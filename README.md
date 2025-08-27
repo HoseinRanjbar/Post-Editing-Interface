@@ -19,7 +19,7 @@ The interface lets users select a segment of a video for modification and upload
 
 
 
-![Demo](https://github.com/user-attachments/assets/1cc4f032-40b1-460d-96e8-fb50c146bd4f)
+[Demo](https://github.com/user-attachments/assets/1cc4f032-40b1-460d-96e8-fb50c146bd4f)
 
 
 

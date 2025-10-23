@@ -19,7 +19,7 @@ The interface lets users select a segment of a video for modification and upload
 
 ![Editing_Video_Demo](https://github.com/user-attachments/assets/62f044c6-5aa4-4c58-ad1b-d265c2e0c497)
 
-![Watch the video on YouTube](https://www.youtube.com/watch?v=TTLYNapVK3M "Click to play on YouTube")
+![Watch the video on YouTube](https://www.youtube.com/watch?v=TTLYNapVK3M)
 
 
 ## Running the Interface

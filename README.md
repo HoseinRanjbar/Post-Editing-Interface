@@ -17,11 +17,7 @@ Sign language production systems often fall short of meeting audience needs. Man
 
 The interface lets users select a segment of a video for modification and upload a replacement video or pose sequence to correct the motion. Using ControlNeXt-SVD-v2, the system creates the updated video by combining the initial pose sequence, the new pose sequence, smooth transitions, and a reference image of the signer. Finally, post-processing with the FaceFusion framework improves the quality of the final video.
 
-
-
-[Demo](https://github.com/user-attachments/assets/1cc4f032-40b1-460d-96e8-fb50c146bd4f)
-
-
+[![Watch the video](https://www.youtube.com/watch?v=TTLYNapVK3M/0.jpg)](https://www.youtube.com/watch?v=TTLYNapVK3M "Click to play on YouTube")
 
 
 ## Running the Interface

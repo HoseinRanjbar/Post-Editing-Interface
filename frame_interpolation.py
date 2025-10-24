@@ -10,16 +10,16 @@ def frame_interpolate(fgf, lgf, ff, lf, output_path, frame_number,config, video_
 
 
     # Step 1: Transfer the file to the remote server
-    fgf_remote_file_path = '/home/hranjb/data/FCVG/example/real/sign/fgf.png'
-    lgf_remote_file_path = '/home/hranjb/data/FCVG/example/real/sign/lgf.png'
-    ff_remote_file_path = '/home/hranjb/data/FCVG/example/real/sign/ff.png'
-    lf_remote_file_path = '/home/hranjb/data/FCVG/example/real/sign/lf.png'
-    result_folder1 = '/home/hranjb/data/FCVG/results/0000'
-    result_folder2 = '/home/hranjb/data/FCVG/results/0001'
+    fgf_remote_file_path = ''
+    lgf_remote_file_path = ''
+    ff_remote_file_path = ''
+    lf_remote_file_path = ''
+    result_folder1 = ''
+    result_folder2 = ''
     # Define the directory where all commands will run
     # Define commands
-    working_directory = '/home/hranjb/data/FCVG'
-    remote_env_activate = 'source /home/hranjb/data/FCVG/env/bin/activate'
+    working_directory = ''
+    remote_env_activate = 'source /home/environment_path/env/bin/activate'
     remote_allocate_gpu = 'srun --pty --time=0:15:0 --mem-per-cpu=32G --cpus-per-task=7 --partition=lowprio --gpus=A100:1 bash -c'
     matplotlib = 'export MPLCONFIGDIR=/tmp/$USER/mpl_cache'
 
@@ -59,3 +59,4 @@ def frame_interpolate(fgf, lgf, ff, lf, output_path, frame_number,config, video_
     # Close the SCP and SSH connections
     scp.close()
     ssh.close()
+

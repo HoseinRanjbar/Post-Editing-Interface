@@ -5,8 +5,8 @@ video_width: 640
 video_height: 512
 offset: 50
 fps: 24
-working_directory : D:/uzh_project/interface/working_directory
-images_directory: D:/uzh_project/interface/images
+working_directory : 
+images_directory: 
 method: part # part or entire 
 sample_stride: 2 # part: 1, entire: 2
 face_swap: True
@@ -14,5 +14,6 @@ frame_interpolation: True
 num_frame: 6
 
 s3it:
-  username: 'hranjb' # S3IT account username
-  password: 'Hoseinr!9' # S3IT account password
+  username: '' # S3IT account username
+  password: '' # S3IT account password
+

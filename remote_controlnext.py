@@ -8,16 +8,16 @@ def ControlNeXt(video_address, inserted_video_address, segment_time, ff_address,
 
     ssh.connect(hostname='cluster.s3it.uzh.ch', username=s3it['username'], password=s3it['password'])
     # Step 1: Transfer the file to the remote server
-    ff_remote_path = '/home/hranjb/data/ControlNeXt/ControlNeXt-SVD-v2/examples/ref_imgs/ff.png'
-    ef_remote_path = '/home/hranjb/data/ControlNeXt/ControlNeXt-SVD-v2/examples/ref_imgs/ef.png'
-    ref_img_remote_file_path = '/home/hranjb/data/ControlNeXt/ControlNeXt-SVD-v2/examples/ref_imgs/Image.png'
-    inserted_video_remote_file_path = '/home/hranjb/data/ControlNeXt/ControlNeXt-SVD-v2/examples/video/Segment_Video.mp4'
-    video_remote_file_path = '/home/hranjb/data/ControlNeXt/ControlNeXt-SVD-v2/examples/video/Video.mp4'
-    remote_output_path = '/home/hranjb/data/ControlNeXt/ControlNeXt-SVD-v2/outputs/output.mp4'
+    ff_remote_path = ''
+    ef_remote_path = ''
+    ref_img_remote_file_path = ''
+    inserted_video_remote_file_path = ''
+    video_remote_file_path = ''
+    remote_output_path = ''
     # Define the directory where all commands will run
     # Define commands
-    working_directory = '/home/hranjb/data/ControlNeXt/ControlNeXt-SVD-v2'
-    remote_env_activate = 'source /home/hranjb/data/ControlNeXt/.env/bin/activate'
+    working_directory = ''
+    remote_env_activate = ''
     #remote_allocate_gpu = 'srun --pty --time=0:15:0 --mem-per-cpu=32G --cpus-per-task=10 --partition=lowprio --gpus=V100:1 --constraint=GPUMEM32GB bash -l'
     remote_allocate_gpu = 'srun --pty --time=1:30:0 --mem-per-cpu=32G --cpus-per-task=7 --partition=lowprio --gpus=A100:1 bash -c'
 
@@ -59,4 +59,5 @@ def ControlNeXt(video_address, inserted_video_address, segment_time, ff_address,
     # Close the SCP and SSH connections
     scp.close()
     ssh.close()
+
 

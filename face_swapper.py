@@ -58,14 +58,14 @@ def facefusion(video_address, ref_img_address, output_address, config):
 
 
     # Step 1: Transfer the file to the remote server
-    ref_img_remote_file_path = '/home/hranjb/repo/facefusion/.assets/reference_image/Image.png'
-    video_remote_file_path = '/home/hranjb/repo/facefusion/.assets/target_video/Video.mp4'
-    video_frame_folder =  '/home/hranjb/repo/facefusion/.assets/target_video/Video'
-    remote_output_path =  '/home/hranjb/repo/facefusion/.assets/outputs/output.mp4'
+    ref_img_remote_file_path = 'facefusion_directory_path/.assets/reference_image/Image.png'
+    video_remote_file_path = 'facefusion_directory_path/.assets/target_video/Video.mp4'
+    video_frame_folder =  'facefusion_directory_path/.assets/target_video/Video'
+    remote_output_path =  'facefusion_directory_path/.assets/outputs/output.mp4'
     # Define the directory where all commands will run
     # Define commands
-    working_directory = '/home/hranjb/repo/facefusion'
-    remote_env_activate = 'source /home/hranjb/env/facefusion/bin/activate'
+    working_directory = 'facefusion_directory_path'
+    remote_env_activate = 'source environment_directory_path/bin/activate'
     ffmpeg = 'export PATH="/home/hranjb/bin:$PATH"'
 
     sftp = ssh.open_sftp()
@@ -98,3 +98,4 @@ def facefusion(video_address, ref_img_address, output_address, config):
     # Close the SCP and SSH connections
     scp.close()
     ssh.close()
+
